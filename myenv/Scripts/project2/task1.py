@@ -3,7 +3,7 @@ import random
 
 def manage_files_in_folder(folder_path, num_files):
     
-    # Step 1: Open the whole folder
+    # Open the whole folder
     if not os.path.exists(folder_path):
         print(f"Folder {folder_path} does not exist.")
         return
